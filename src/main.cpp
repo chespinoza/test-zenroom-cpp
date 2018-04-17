@@ -4,7 +4,7 @@
 extern "C" {
 #endif
 
-#include "../lib/zenroom/src/zenroom.h"
+#include "zenroom.h"
 #ifdef __cplusplus
 }
 #endif
@@ -25,7 +25,7 @@ static char *Readfile(const char *filename)
 int main(int argc, char *argv[])
 {
 
-    char *script = Readfile("scripts/test.lua");
+    char *script = Readfile("scripts/hello.lua");
     char *data = (char *)"{\"val\":1}";
     char *keys = Readfile("keys/device_keys.json");
 
