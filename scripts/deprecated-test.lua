@@ -1,3 +1,4 @@
+-- CODE SYNTAX DEPRECATED
 json = cjson()
 keys = json.decode(KEYS)
 
